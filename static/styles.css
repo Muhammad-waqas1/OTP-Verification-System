@@ -1,29 +1,67 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: #f4f4f4;
+    background: #866fe5;
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/3569599591/thumb/1.jpg?ip=x480);
+    /* background-position: center; */
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30%;
     margin: auto;
     padding: 20px;
-    background: white;
-    box-shadow: 0px 0px 10px gray;
-    border-radius: 10px;
+    background: #e5d2d2;
+    background-image: url(https://st3.depositphotos.com/9966530/13344/i/450/depositphotos_133444046-stock-photo-bo-leaves-gold-leaves-in.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    box-shadow: rgba(41, 8, 48, 0.178) 0px 0px 1px 5px;
     margin-top: 100px;
+    border-radius: 8px;
 }
-input, button {
-    width: 80%;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid gray;
+
+.container:hover {
+    box-shadow: rgba(0, 0, 0, 0.247) 0px 0px 1px 5px;
+    
 }
+
+input,
 button {
-    background: blue;
-    color: white;
+    width: 80%;
+    font-size: larger;
+    padding: 19px;
+    margin: 15px;
+    border: 1px solid rgba(74, 20, 95, 0.541);
+    border-radius: 5px;
+}
+
+button {
+    background: rgb(88, 218, 56);
+    font-size: 21px;
+    color:black;
     border: none;
     cursor: pointer;
+    margin-bottom: 10%;
+    font-weight: bold;
+    width: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 button:hover {
-    background: darkblue;
+    background: rgb(78, 196, 41);
+    /* color: white; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+h1 {
+    /* font-size: 30px; */
+    margin-top: 10px;
 }
